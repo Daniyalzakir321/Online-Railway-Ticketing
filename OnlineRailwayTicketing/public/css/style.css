@@ -1,0 +1,316 @@
+
+body{
+ margin:0px;
+ padding:0px;
+}
+
+
+.my-navbar{
+background-color: #228B22;	
+
+}
+
+.nav-item .nav-link{
+    color:white;
+    font-size:13px;
+    font-family:arial;
+    letter-spacing: 2px;
+    margin: 0px 10px;
+    text-transform: uppercase;
+}
+.mega-menu{
+    background-color: transparent;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    border:none;
+}
+
+.dropdown-item{
+    padding: 12px 40px 12px 20px;
+    font-size: 15px;
+    font-family:arial;
+    color:black;
+    font-weight: lighter;
+    background-color: white;
+    transform-origin: center;
+    animation :rotate 1.5s ease 1;
+}
+
+.hhs{
+    color: #008B8B;
+    padding-top: 34px;
+    padding-bottom: 24px;
+
+}
+
+
+
+.navbar-brand{
+    text-transform:uppercase;
+    font-family:impact;
+    font-size: 20px;
+    color:white;
+    letter-spacing: 2px;
+}
+.fa-bars{
+    font-size: 22pt;
+    color: white;
+}
+
+
+.fone-info, .msg-info{
+    color: white;
+}
+.top{
+width: 100%;
+text-align: center;
+background-color: #6B8E23;	
+padding: 10px;
+
+}
+div a{
+    color: white;
+}
+
+.child a:hover{
+    text-decoration: none!important;
+    color: white!important;
+}
+.heading{
+    color: #228B22;	
+    font-weight: bolder;
+    font-size: 30pt;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 4px white;
+
+}
+.heading2{
+    color: #006400;
+    font-weight: bolder;
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 3px 3px 4px white;
+
+}
+.heading3{
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    padding: 25px;
+
+}
+.jus{
+    text-align: justify;
+    line-height: 3rem;
+    font-size: 16pt;
+}
+.cc img{
+    width: 100%;
+}
+.desi{
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.desi p{
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+    vertical-align: center;
+    padding: 20px 0px;
+}
+.desii{
+    background-color: AliceBlue;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+}
+.desii p{
+    color: #696969;
+    font-size: 14pt;
+    font-weight: bold;
+    padding-top: 18px;
+}
+.double{
+    background-color: AliceBlue;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.box{
+    background-color: rgb(91, 91, 179);
+    padding: 20px;
+    margin-top: 20px;
+    height: auto;
+
+}
+.box h5, .icon-holder{
+    color: white;
+    text-align: center;
+}
+.box p{
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+}
+.icon-holder{
+    font-size: 45pt;
+}
+.hh:hover{
+    text-decoration: none;
+}
+.main-con{
+    margin-top: 20px;
+    text-align: center!important;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.heading4{
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center!important;
+}
+.card {
+    float: none; 
+    margin-bottom: 35px!important; 
+    color: green;
+    font-size: 14pt;
+    font-weight: bold;
+    background-color: rgb(255, 255, 228);
+    height: 90%;
+}
+.fa-snowflake-o, .fa-users, .fa-map-marker, .fa-user-circle{
+    font-size: 90pt;
+    color: rgb(87, 87, 87);
+}
+.ccc{
+    text-align: center;
+    margin-top: 50px;
+}
+.ccc h1{
+    color: rgb(87, 87, 87);
+    font-size: 20pt;
+    padding: 20px;
+}
+.fa-snowflake-o:hover, .fa-users:hover, .fa-map-marker:hover, .fa-user-circle:hover{
+    color:  rgb(91, 91, 179);
+}
+.cccc{
+    text-align: center;
+    margin-top: 50px;
+}
+.cccc p{
+    text-align: left!important;
+    color: rgb(97, 97, 97);
+}
+.heading6{
+    color: blue!important;
+    font-weight: bold;
+}
+.fa-facebook-square, .fa-youtube-play, .fa-instagram, .fa-whatsapp{
+    color: blue!important;
+    font-size: 20pt;
+    padding-left: 5px;
+}
+.co{
+    background-color: #0652dd;
+    margin-top: 30px;
+}
+.pp{
+    color: white;
+    padding: 25px;
+}
+html{
+    background-color: #0652dd;
+
+}
+#baby{
+    color: white!important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 13pt;
+    padding-left: 30px;
+
+}
+.about{
+    font-size: 35pt;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.cc{
+    font-size: 30pt!important;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+.ccc{
+    font-size: 20pt;
+    font-weight: bold;
+    padding: 0 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.csc{
+    text-align: justify;
+    line-height: 50px;
+    font-size: 15pt;
+    margin: 12px;
+    padding-top: 20px;
+    color: grey;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+.color{
+      background-color: #00008B;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+  }
+  span.step {
+    background: #838383;
+    border-radius: 2em;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 3em;
+    margin-right: 5px;
+    text-align: center;
+    width: 3em; 
+  }
+.font{
+      color: grey!important;
+    font-size: 85pt;
+    padding-top: 15px;
+    
+  }
+  .parag{
+    font-size: 17pt;
+    padding-top: 15px;
+    color: white;
+  }
+  .font:hover{
+      color: yellow!important;
+  }
+
+.w3-center h1{
+    font-size: 60pt!important;
+}
+.w3-center{
+    margin: 15px!important;
+}
+.formc{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+@media scren and (max-width: 600px){
+
+}

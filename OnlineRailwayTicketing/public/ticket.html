@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+    <title>Online Examination</title>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCxBeHDGLdbJfG5APurrIhAi-BSj4SCPks",
+        authDomain: "onlinerailwayticketing.firebaseapp.com",
+        databaseURL: "https://onlinerailwayticketing.firebaseio.com",
+        projectId: "onlinerailwayticketing",
+        storageBucket: "onlinerailwayticketing.appspot.com",
+        messagingSenderId: "434442104930",
+        appId: "1:434442104930:web:da4687a77aa3690a63213b",
+        measurementId: "G-5GRYFPF120"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      </script>
+</head>
+<body>
+  <div class="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 child">
+          <a href="#" class="fone-info"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;+923463934822&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <a href="#" class="msg-info"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;railwaypak@pak.com</a>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 child">
+          <a href="#" target="">Online Railway Management System&nbsp;| </a>
+          <a href="index.html" target="">Login</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+
+
+
+
+
+
+  <div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg my-navbar">
+<span id="baby">
+  Pak Railway
+</span>     
+ <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="ticket.html">Online Ticketing</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="container formc">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Name</label>
+          <div class="col-sm-12">
+            <input type="sn" class="form-control" id="name2" placeholder="Name" name="Name" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">CNIC No.</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="cnic" placeholder="CNIC No." name="CNIC No." required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Mobile Number</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="mobile" placeholder="Mobile Number" name="Mobile Number" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Email Address</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="email3" placeholder="Email Address" name="Email Address" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Train Name</label>
+          <div class="col-sm-12">          
+            <select class="form-control" id="trainname" required>
+              <option>Night Caoach</option>
+              <option>TeezGam</option>
+              <option>Allama Iqbal Express</option>
+              <option>Awam Express</option>
+              <option>Badar Express</option>
+              <option>Ghauri Express</option>
+              <option>Bahauddin Zakaria Express</option>
+              <option>Badin Express</option>
+              <option>Bahawalpur Express</option>
+              <option>Baluchistan Express</option>
+            </select>          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Start Place</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="start" placeholder="Start Place" name="Start Place" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Destination Place</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="destination" placeholder="Destination Place" name="Destination Place" required>
+            </div>    
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">Date of Journey</label>
+          <div class="col-sm-12">          
+            <input type="month" id="date" name="start" min="2018-03" value="2018-05">            
+          </div>    
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="pwd">No. of Tickets</label>
+          <div class="col-sm-12">          
+            <input type="fn" class="form-control" id="ticket" placeholder="No. of Tickets" name="No. of Tickets" required>
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-sm-offset-2 col-sm-10">
+            <button onclick="submitted()" type="submit"  class="btn btn-default">Submit</button>
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-sm-offset-12 col-sm-6">
+            <div class="container">
+            <p>See All Data of Firebase Cloud Data base in Alert Box</p>
+          </div>
+            <button onclick="allin()" type=""  class="btn btn-default">Click</button>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 col-lg-3 cccc">
+          <p>Information Technology</p>
+           <p>Achievements & Plans</p>
+           <p>Year Book</p>
+            <p>Latest News</p>
+             <p> <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i></p>
+        </div>
+    
+        <div class="col-md-6 col-sm-12 col-lg-3 cccc">
+          <p>Downloads</p>
+          <p>Marketing</p>
+          <p>History</p>
+          <p>Public Notices</p>
+          <p>News & Events</p>
+        </div>
+    
+        <div class="col-md-6 col-sm-12 col-lg-3 cccc">
+          <p>FAQ</p>
+          <p>Fares and Rates Table</p>
+          <p>General Information</p>
+          <p>Store Inventory Visibility System</p>
+          <p>Press Release</p>
+    
+        </div>
+    
+        <div class="col-md-6 col-sm-12 col-lg-3 cccc">
+          <p>Suggestions & Complaints</p>
+          <p>Complaints Resolution Time</p>
+          <p>Train Timings</p>
+          <p>PR Academy</p>
+          <p>Sitemap</p>
+    
+        </div>
+    </div>
+
+
+     <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/my-login.js"></script>
+</body>
+</html>
