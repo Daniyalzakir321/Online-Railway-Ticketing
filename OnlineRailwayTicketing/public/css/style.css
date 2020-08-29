@@ -200,6 +200,9 @@ div a{
 .fa-snowflake-o:hover, .fa-users:hover, .fa-map-marker:hover, .fa-user-circle:hover{
     color:  rgb(91, 91, 179);
 }
+.cccs{
+    padding-left: 10%;
+}
 .cccc{
     text-align: center;
     margin-top: 50px;
